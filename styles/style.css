@@ -1,0 +1,136 @@
+* {
+    font-style: "Times New Roman";
+}
+
+header {
+    background-image: url(https://uploads-ssl.webflow.com/5fa93d27380666639d1cbbd7/60c1cc6ff1c39b2d2f33ee84_seinfeld-zoom-background-large-p-1600.jpeg);
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    height: 40rem;
+}
+
+body {
+    padding-top: 2rem;
+    background-image: url('https://shoutitoutdesign.com/wp-content/uploads/2016/10/90s-website-style.jpg');
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: 10rem;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+}
+
+.main-container aside{
+    width: 35%;
+    background-color: beige;
+}
+
+.main-container section {
+    width: 65%;
+    background-color: plum;
+
+}
+aside {
+    border: 5px solid white;
+}
+
+aside li a {
+    font-size: 1.5rem;
+}
+
+aside li {
+    padding: 1rem 0rem;
+    list-style-type: none;
+}
+
+aside h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    padding-top: 2rem;
+    font-size: 1.9rem;
+}
+
+aside img {
+    display: block;
+    width: 50%;
+    margin: 3rem auto;
+}
+
+main {
+    border: 3px solid white;
+}
+
+main section {
+    border: 4px solid white;
+}
+
+.jerry, .george, .elaine, .kramer {
+    border: 3px solid purple;
+    margin: 3rem 2rem;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+}
+
+.jerry img, .george img, .elaine img, .kramer img {
+    float: left;
+    margin: 1rem 2rem;
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+    width: 20rem;
+}
+
+.jerry p, .george p, .elaine p, .kramer p, .georges-parents p{
+    font-size: 1.5rem;
+    padding: 0rem 2rem;
+}
+
+.jerrys-apartment, .monks-cafe, .kramers-apartment, .georges-parents, .comedy-club, .nyc-streets {
+    border: 3px solid purple;
+    margin: 3rem 2rem;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+}
+
+.jerrys-apartment img, .monks-cafe img, .kramers-apartment img, .georges-parents img, .comedy-club img, .nyc-streets img{
+    float: left;
+    margin: 1rem 2rem;
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+    width: 35rem;
+}
+
+.jerrys-apartment p, .monks-cafe p, .kramers-apartment p, .georges-parents p, .comedy-club p, .nyc-streets p {
+    font-size: 1.5rem;
+    padding: 0rem 2rem;
+}
+
+.monks-cafe img {
+    width: 25rem;
+
+}
+
+section > h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+footer > div {
+    width:min-content;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
