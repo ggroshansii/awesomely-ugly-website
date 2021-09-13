@@ -7,6 +7,7 @@ header {
     border-top-left-radius: 4rem;
     border-top-right-radius: 4rem;
     height: 40rem;
+    border: 3px solid white;
 }
 
 body {
@@ -133,4 +134,36 @@ footer > div {
     margin: auto;
     text-align: center;
     color: white;
+}
+
+.on-load {
+    height: 75vh;
+    width: 100%;
+    display: 'none';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.on-load img {
+    max-height: 100%;
+    height: auto;
+}
+
+.loading-background img:first-child {
+    width: 25rem;
+    padding-bottom: 1rem;
+}
+
+.loading-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4656C4;
+    width: 50%;
+    border-radius: 20%;
+    padding: 1.5rem 0rem;
 }
